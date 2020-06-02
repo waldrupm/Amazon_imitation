@@ -1,3 +1,92 @@
+a {
+    color: #0066c0;
+}
+a:hover {
+    color: #c45500;
+}
+a:visited {
+    color: #0066c0;
+}
+
 #logo {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+#btn-continue {
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+    margin-bottom: 10px;
+}
+
+#btn-continue:hover {
+    background: linear-gradient(to bottom,#f0da7a,#f0c14b);
+}
+
+#btn-account {
+    background: linear-gradient(to bottom,#fefeff,#e1e3e6);
+    border-radius: 2px;
+    color: #111;
+    border-color: #adb1b8 #a2a6ac #8d9096;
+}
+
+#btn-account:hover {
+    background: linear-gradient(to bottom,#ededf3,#e1e3e6);
+}
+
+#agree-text {
+    font-size: .75rem;
+    margin-bottom: 1.2rem;
+}
+
+.form-header {
+    margin-bottom: 17px;
+}
+
+.form-group label {
+    font-size: 0.9rem;
+    margin-bottom: 0px;
+}
+
+.form-group > a {
+    font-size: 0.9rem;
+    margin-bottom: 0px;
+}
+
+.card-body {
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: 0.5rem;
+}
+
+.azon-divider {
+    text-align: center;
+    position: relative;
+    top: 2px;
+    /* padding-top: 1px; */
+
+}
+
+.azon-divider:after {
+    content: "";
+    width: 100%;
+    display: block;
+    height: 1px;
+    border-top: 1px solid #e7e7e7;
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    z-index: 1;
+}
+
+.new-azon {
+    font-size: 0.8rem;
+    font-weight: light;
+    display: inline-block;
+    margin-bottom: 14px;
+    z-index: 2;
+    line-height: 1;
+    background-color: #fff;
+    position: relative;
+    padding: 0 10px;
+    color: #767676;
 }
